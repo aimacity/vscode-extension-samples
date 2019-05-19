@@ -22,7 +22,7 @@ const inlineSource = false;
 const outDest = 'out';
 
 // If all VS Code langaues are support you can use nls.coreLanguages
-const languages = [{ folderName: 'jpn', id: 'ja' }];
+const languages = [{ folderName: 'jpn', id: 'ja' },{ folderName: 'zh-cn', id: 'zh-cn' }];
 
 gulp.task('default', function(callback) {
 	runSequence('build', callback);
